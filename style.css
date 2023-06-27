@@ -1,0 +1,99 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+*{
+    font-family: 'Playfair Display', serif;
+    background: none;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: rgb(33, 18, 37);
+}
+
+#logo{
+    width: 60px;
+    background: none;
+}
+
+.menu{
+    background-color: rgb(189, 158, 214);
+}
+
+.texto-color{
+    color: black;
+}
+
+.header-fondo{
+    background-image: url(/imagenes/mbti.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 99.1vw;
+    height: 100vh;
+}
+
+#section-2{
+    padding: 200px 0;
+    background: linear-gradient(white, rgb(145, 112, 160));
+}
+
+#section-3{
+    background: linear-gradient(rgb(145, 112, 160), rgb(88, 62, 100) );
+}
+
+.titulos-funciones{
+    padding: 200px 0 100px 0;
+}
+
+.funciones-cognitivas{
+    padding: 0 100px 100px 100px;
+}
+
+.tarjetas-funciones{
+    padding: 30px;
+    border: 3px solid rgb(41, 21, 48);
+    border-radius: 10px;
+    background-color: rgb(224, 206, 206);
+}
+
+#section-4{
+    background: linear-gradient(rgb(88, 62, 100), rgb(48, 32, 56) );
+} 
+
+table{
+    border: 10px solid;
+}
+
+.titulo-tabla, .titulo-form{
+    padding-top: 150px;
+}
+
+#section-5{
+    background: linear-gradient( rgb(48, 32, 56), rgb(23, 11, 29) );
+    color: whitesmoke;
+    padding-bottom: 270px;
+}
+
+#boton-enviar{
+    background-color: rgb(165, 139, 189);
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 15px 70px;
+}
+
+#boton-enviar:hover{
+    background-color: rgb(56, 41, 70) ;
+}
+
+footer{
+    background-color: rgb(15, 6, 17);
+    color: whitesmoke;
+}
+
+
+
