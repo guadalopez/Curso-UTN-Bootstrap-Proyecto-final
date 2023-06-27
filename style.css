@@ -30,7 +30,7 @@ a:hover{
 }
 
 .header-fondo{
-    background-image: url(/imagenes/mbti.jpg);
+    background-image: url(imagenes/mbti.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 99.1vw;
